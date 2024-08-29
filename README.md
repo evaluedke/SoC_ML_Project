@@ -18,6 +18,7 @@ To run the code, the following packages are required and can be installed with p
 - cartopy
 - sklearn
 - statsmodels
+- eofs
 - warnings
 
 The code is structured into several sections. In the beginning, there is a preprocessing part in which the data 
