@@ -1,5 +1,5 @@
 # SoC_ML_Project
-# Arctic Sea Ice Prediction with ERA5 Climate Dara
+# Arctic Sea Ice Prediction with ERA5 Climate Data
 
 ## Description 
 
@@ -21,4 +21,5 @@ To run the code, the following packages are required and can be installed with p
 - eofs
 - warnings
 
-The code is structured into several sections. In the beginning, there is a preprocessing part in which the data 
+The code is structured into several sections. In the beginning, there is a preprocessing part in which the variables are stored in a dictionary, anomalies are created and area weights are calculated. In the exploratory data analysis, the focus lies on finding correlations between the climatic variables with the goal of choosing the most relevant variables for the machine learning part. In that part, a random forest algorithm is applied to predict sea ice, 2 timeseries prediction approaches: a statistical ARIMA model and a neural network LSTM are compared in predicting the progression of sea ice over time. And finally, an EOF analysis produces the Arctic Oscillation (AO) mode of climate variability to eventually find a relationship between the sea ice fraction and the phase of the AO. 
+
